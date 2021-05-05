@@ -1,0 +1,10 @@
+[main] INFO  io.micronaut.runtime.Micronaut - Startup completed in 2057ms. Server Running: http://localhost:8080
+[default-nioEventLoopGroup-1-3] INFO  y.quotes.query1v7.QuotesRequest - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=googl
+[default-nioEventLoopGroup-1-3] INFO  y.quotes.query1v7.QuotesRequest - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOGL
+[default-nioEventLoopGroup-1-3] INFO  yahoofinance.Stock - Updated Stock with symbol: GOOGL
+[default-nioEventLoopGroup-1-3] INFO  y.quotes.query1v7.QuotesRequest - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DJI%2CGOOGL%2CIXIC%2CETH%2CBTC%2CBSEN%2CGSPC%2CTSLA
+[default-nioEventLoopGroup-1-3] INFO  y.quotes.query1v7.QuotesRequest - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=googl
+[default-nioEventLoopGroup-1-3] INFO  y.quotes.query1v7.QuotesRequest - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOGL
+[default-nioEventLoopGroup-1-3] INFO  yahoofinance.Stock - Updated Stock with symbol: GOOGL
+[default-nioEventLoopGroup-1-3] INFO  y.quotes.query1v7.QuotesRequest - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=DJI%2CGOOGL%2CIXIC%2CETH%2CBTC%2CBSEN%2CGSPC%2CTSLA
+[main] INFO  i.m.context.env.DefaultEnvironment - Established active environments: [test]
