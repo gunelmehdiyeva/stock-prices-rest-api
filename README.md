@@ -1,12 +1,22 @@
-## Micronaut 2.5.0 Documentation
+## API TO SEARCH THE STOCK PRICES
 
-- [User Guide](https://docs.micronaut.io/2.5.0/guide/index.html)
-- [API Reference](https://docs.micronaut.io/2.5.0/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/2.5.0/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
+- THIS API is used for to get information about stock price by providing stock index in single and batch mode using YAHOO as provider for stock prices
+- API authentication user and password -- myYahoo
+
 
 ---
 
+# FOLLOWING ARE API URL TO CALLBACK WITH
+
+## Single index price ::
+- With parameter valid stock index such as stockindex=googl
+- http://localhost:8080/api/one?stockprovider=yahoo&stockindex=googl
+
+
+## Multiple index prices 
+- http://localhost:8080/api/many?stockprovider=yahoo
+
+----
 ## Feature http-client documentation
 
 - [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
